@@ -10,3 +10,5 @@ TEST_CASE("test")
 {
 	REQUIRE(test_config() == true);
 }
+
+//Not sure how else to test if #'s are random

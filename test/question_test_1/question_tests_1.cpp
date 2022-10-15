@@ -10,3 +10,10 @@ TEST_CASE("test")
 {
 	REQUIRE(test_config() == true);
 }
+
+TEST_CASE("Test q1 function")
+{
+	REQUIRE(get_farenheit(37) == 98.6);
+	REQUIRE(get_farenheit(25) == 77);
+	REQUIRE(get_farenheit(0) == 32);
+}

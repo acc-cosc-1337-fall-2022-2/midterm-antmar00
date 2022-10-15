@@ -10,3 +10,10 @@ TEST_CASE("test")
 {
 	REQUIRE(test_config() == true);
 }
+
+TEST_CASE("Test Primes")
+{
+	vector <int> expected_num1{2, 3, 5, 7};
+
+	REQUIRE(get_primes(10) == expected_num1);
+}
